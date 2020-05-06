@@ -1,0 +1,8 @@
+<div class="mainWrap card">
+  <h1><%= @post.title %>　編集</h1>
+
+  <%= render 'form', post: @post %>
+
+  <%= link_to 'Show', @post %> |
+  <%= link_to 'Back', posts_path %>
+</div>
